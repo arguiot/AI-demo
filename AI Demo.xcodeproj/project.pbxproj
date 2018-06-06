@@ -12,6 +12,7 @@
 		68C3322920C7DFA8006C1B83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68C3322720C7DFA8006C1B83 /* Main.storyboard */; };
 		68C3322B20C7DFAA006C1B83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68C3322A20C7DFAA006C1B83 /* Assets.xcassets */; };
 		68C3322E20C7DFAA006C1B83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68C3322C20C7DFAA006C1B83 /* LaunchScreen.storyboard */; };
+		68C3323620C7E150006C1B83 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 68C3323520C7E150006C1B83 /* SqueezeNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		68C3322A20C7DFAA006C1B83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68C3322D20C7DFAA006C1B83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		68C3322F20C7DFAA006C1B83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68C3323520C7E150006C1B83 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				68C3322320C7DFA8006C1B83 /* AppDelegate.swift */,
 				68C3322520C7DFA8006C1B83 /* ViewController.swift */,
 				68C3322720C7DFA8006C1B83 /* Main.storyboard */,
+				68C3323520C7E150006C1B83 /* SqueezeNet.mlmodel */,
 				68C3322A20C7DFAA006C1B83 /* Assets.xcassets */,
 				68C3322C20C7DFAA006C1B83 /* LaunchScreen.storyboard */,
 				68C3322F20C7DFAA006C1B83 /* Info.plist */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68C3322620C7DFA8006C1B83 /* ViewController.swift in Sources */,
+				68C3323620C7E150006C1B83 /* SqueezeNet.mlmodel in Sources */,
 				68C3322420C7DFA8006C1B83 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
